@@ -1,5 +1,4 @@
 # 88x2bu
-Note: This driver is not fully uploaded or tested. Please do not download it until this note is gone.
 
 Linux Driver for the RealTek RTL8812BU and RTL8822BU Chipsets.
 
