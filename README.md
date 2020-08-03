@@ -8,11 +8,9 @@ Driver version 5.8.7.1, 2019-11-19, from Realtek. I have tested the driver on Ub
 
 Download the zip file of this repository to home (or other if you like.)
 
-Unzip the zip file. A folder named 88x2bu will be created.
+Unzip the zip file. A folder named 88x2bu-master will be created.
 
-From a terminal (aka. command line) in the 88x2bu folder (where the zip file was unzipped):
-
-$ cd 88x2bu
+From a terminal (aka. command line) in the 88x2bu-master folder (where the zip file was unzipped):
 
 $ sudo apt-get install build-essential
 
