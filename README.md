@@ -2,7 +2,24 @@
 
 # Linux Driver for the RealTek RTL8812BU and RTL8822BU Chipsets.
 
-Driver version 5.8.7.1, 2019-11-19, from Realtek. I have tested the driver on Ubuntu 20.04, Linux Mint 20 and Linux Mint 19.3. I saw clean compiles on all three tests. Basic function tests on a rtl8812bu chipset based USB device were successful.
+Driver version 5.8.7.1 - 2019-11-19.
+
+# Features:
+
+- WPA3-SAE Personal
+- Soft AP mode
+- WiFi-Direct
+- Power saving mode
+- IEEE 802.11 b/g/n/ac
+- Monitor mode
+
+# Tested systems:
+
+- Ubuntu 20.04
+- Linux Mint 20
+- Linux Mint 19.3
+
+- Device test: rtl8812bu chipset based USB device
 
 # Basic installation for Ubuntu 20.04 or Linux Mint 20:
 
