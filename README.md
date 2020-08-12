@@ -39,5 +39,5 @@ $ sudo reboot
 
 # To-do:
 
-- add dkms support (help appreciated)
+- add dkms support (initial dkms support has been added but needs to be tested)
 
