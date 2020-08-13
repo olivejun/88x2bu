@@ -35,7 +35,7 @@ Driver version 5.8.7.1 - 2019-11-19.
 
 # Basic installation for Ubuntu 20.04 or Linux Mint 20:
 
-Download the zip file of this repository to /home (or other if you like.)
+Download the zip file from this repository to /home (or other if you like.)
 
 Unzip the zip file. A folder named 88x2bu-master will be created.
 
@@ -51,7 +51,11 @@ $ sudo make install
 
 $ sudo reboot
 
+Note: You will need to repeat the above if the kernal is upgraded. 
+
 # To-do:
 
 - add dkms support (initial dkms support has been added but needs to be tested)
+
+
 
