@@ -6,20 +6,32 @@ Driver version 5.8.7.1 - 2019-11-19.
 
 # Features:
 
+- IEEE 802.11 b/g/n/ac WiFi compliant
+- 802.1x, WEP, WPA TKIP andWPA2 AES/Mixed mode for PSK and TLS (Radius)
 - WPA3-SAE Personal
+- WPS - PIN and PBC Methods
+- IEEE 802.11b/g/n/ac Client mode
+- Support wireless security for WEP, WPA TKIP and WPA2 AES PSK
+- Support site survey scan and manual connect
+- Support WPA/WPA2 TLS client
+- Support power saving mode
 - Soft AP mode
 - WiFi-Direct
-- Power saving mode
-- IEEE 802.11 b/g/n/ac
-- Monitor mode
 
-# Tested systems:
+# Officially supported kernels:
+
+- Linux (kernel 2.6.24 ~ 5.3) 
+(Note: tested on kernel 5.4 with no problems noted so far)
+
+# Tested distributions:
 
 - Ubuntu 20.04
 - Linux Mint 20
 - Linux Mint 19.3
 
-- Device test: rtl8812bu chipset based USB device
+# Tested Hardware:
+
+- rtl8812bu chipset based USB device
 
 # Basic installation for Ubuntu 20.04 or Linux Mint 20:
 
