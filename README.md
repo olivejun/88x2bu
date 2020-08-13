@@ -7,7 +7,7 @@ Driver version 5.8.7.1 - 2019-11-19.
 # Features:
 
 - IEEE 802.11 b/g/n/ac WiFi compliant
-- 802.1x, WEP, WPA TKIP andWPA2 AES/Mixed mode for PSK and TLS (Radius)
+- 802.1x, WEP, WPA TKIP and WPA2 AES/Mixed mode for PSK and TLS (Radius)
 - WPA3-SAE Personal
 - WPS - PIN and PBC Methods
 - IEEE 802.11b/g/n/ac Client mode
