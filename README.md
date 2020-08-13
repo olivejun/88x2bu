@@ -23,13 +23,15 @@ Driver version 5.8.7.1 - 2019-11-19.
 
 # Basic installation for Ubuntu 20.04 or Linux Mint 20:
 
-Download the zip file of this repository to home (or other if you like.)
+Download the zip file of this repository to /home (or other if you like.)
 
 Unzip the zip file. A folder named 88x2bu-master will be created.
 
-From a terminal (aka. command line) in the 88x2bu-master folder (where the zip file was unzipped):
+From a terminal (aka. command line):
 
-$ sudo apt-get install build-essential
+$ cd 88x2bu-master
+
+$ sudo apt-get install build-essential (does not appear to be needed on Ubuntu 20.04)
 
 $ make
 
