@@ -55,7 +55,4 @@ Note: You will need to repeat the above if the kernal is upgraded.
 
 # To-do:
 
-- add dkms support (initial dkms support has been added but needs to be tested)
-
-
-
+- add dkms support
