@@ -2,7 +2,7 @@
 
 if [[ $EUID -ne 0 ]]; then
   echo "You must run dkms-install.sh with superuser priviliges."
-  echo "Try \"sudo ./dkms-install.sh\"" 2>&1
+  echo "Try \"sudo ./dkms-install.sh\""
   exit 1
 fi
 
@@ -20,7 +20,7 @@ dkms install -m ${DRV_NAME} -v ${DRV_VERSION}
 RESULT=$?
 
 if [[ "$RESULT" != "0" ]]; then
-  echo "An error occurred while running dkms-install.sh." 2>&1
+  echo "An error occurred while running dkms-install.sh."
 else
   echo "dkms-install.sh was successful."
 fi
