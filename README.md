@@ -43,11 +43,15 @@ From a terminal (aka. command line interface):
 ```
 $ cd 88x2bu-master
 ```
+```
 $ sudo apt-get install build-essential (does not appear to be needed on Ubuntu 20.04)
+```
 ```
 $ make
 ```
+```
 $ sudo make install
+```
 ```
 $ sudo reboot
 ```
@@ -55,29 +59,23 @@ $ sudo reboot
 Note: You will need to repeat the above from "$ make" on down if the kernal is upgraded. To avoid having to manually recompile after kernel upgrades, see DKMS below.
 
 ### DKMS
-This driver can be installed using [DKMS]. This is a system which will automatically recompile and install a kernel module when a new kernel gets installed or updated. To make use of DKMS, install the `dkms` package, which on Debian (based) systems is done like this:
+This driver can be installed using [DKMS]. This is a system which will automatically recompile and install a kernel module when a new kernel gets installed or updated. To make use of DKMS, install the `dkms` package, which on Debian (based) systems such as Ubuntu and Linux Mint is done like this:
 ```
 $ sudo apt-get install dkms
 ```
 
-### Installation of Driver
-In order to install the driver open a terminal in the directory with the source code and execute the following command:
+### Installation of the Driver
+Open a terminal in the directory with the source code and execute the following command:
 ```
 $ sudo ./dkms-install.sh
 ```
 
-### Removal of Driver
-In order to remove the driver from your system open a terminal in the directory with the source code and execute the following command:
+### Removal of the Driver
+Open a terminal in the directory with the source code and execute the following command:
 ```
 $ sudo ./dkms-remove.sh
 ```
 
-### Make
-For building & installing the driver with 'make' use
-```
-$ make && make install
-```
-
-# To-Do:
+### To-Do:
 
 - test
