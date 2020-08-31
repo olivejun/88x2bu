@@ -31,7 +31,8 @@ Driver version 5.8.7.1 - 2019-11-19.
 
 ### Tested Hardware:
 
-- rtl8812bu chipset based USB device
+- EDUP WiFi Adapter 1300Mbps USB 3.0 High Gain Wireless Adapter
+  ( https://www.amazon.com/gp/product/B07Q56K68T/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1&pldnSite=1 )
 
 ### Basic installation for Ubuntu 20.04 or Linux Mint 20:
 
