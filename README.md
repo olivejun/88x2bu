@@ -2,7 +2,7 @@
 
 ### Linux Driver for the RealTek RTL8812BU and RTL8822BU Chipsets.
 
-Driver version 5.8.7.1 - 2019-11-19.
+Driver Version 5.8.7.1 - 2019-11-19.
 
 ### Supported Features:
 
@@ -19,12 +19,12 @@ Driver version 5.8.7.1 - 2019-11-19.
 - Soft AP mode
 - WiFi-Direct
 
-### Officially Supported Kernels:
+### Supported Kernels:
 
 - Linux (kernel 2.6.24 ~ 5.3)
   Note: tested on kernel 5.4 with no problems noted)
 
-### Tested distributions:
+### Tested Linux Distributions:
 
 - Ubuntu 20.04
 - Linux Mint 20
@@ -35,7 +35,7 @@ Driver version 5.8.7.1 - 2019-11-19.
 - EDUP WiFi Adapter 1300Mbps USB 3.0 High Gain Wireless Adapter:
   https://www.amazon.com/gp/product/B07Q56K68T
 
-### Basic installation for Ubuntu 20.04 or Linux Mint 20:
+### Basic Installation for Ubuntu 20.04 or Linux Mint 20:
 
 Download the zip file (green "Code" button) from this repository to /home (or other if you like.)
 
