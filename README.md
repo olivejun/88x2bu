@@ -21,7 +21,7 @@ Driver version 5.8.7.1 - 2019-11-19.
 
 ### Officially Supported Kernels:
 
-- Linux (kernel 2.6.24 ~ 5.3) Note: tested on kernel 5.4 with no problems noted so far)
+- Linux (kernel 2.6.24 ~ 5.3) Note: tested on kernel 5.4 with no problems noted)
 
 ### Tested distributions:
 
@@ -31,8 +31,8 @@ Driver version 5.8.7.1 - 2019-11-19.
 
 ### Tested Hardware:
 
-- EDUP WiFi Adapter 1300Mbps USB 3.0 High Gain Wireless Adapter
-  ( https://www.amazon.com/gp/product/B07Q56K68T/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1&pldnSite=1 )
+- EDUP WiFi Adapter 1300Mbps USB 3.0 High Gain Wireless Adapter:
+  https://www.amazon.com/gp/product/B07Q56K68T
 
 ### Basic installation for Ubuntu 20.04 or Linux Mint 20:
 
@@ -60,7 +60,7 @@ $ sudo reboot
 Note: You will need to repeat the above from "$ make" on down if the kernal is upgraded. To avoid having to manually recompile after kernel upgrades, see DKMS below.
 
 ### DKMS
-This driver can be installed using [DKMS]. This is a system which will automatically recompile and install a kernel module when a new kernel gets installed or updated. To make use of DKMS, install the `dkms` package, which on Debian (based) systems such as Ubuntu and Linux Mint is done like this:
+This driver can be installed using [DKMS]. This is a system which will automatically recompile and install a kernel module when a new kernel is installed. To make use of DKMS, install the `dkms` package, which on Debian (based) systems such as Ubuntu and Linux Mint is done like this:
 ```
 $ sudo apt-get install dkms
 ```
