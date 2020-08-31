@@ -21,7 +21,8 @@ Driver version 5.8.7.1 - 2019-11-19.
 
 ### Officially Supported Kernels:
 
-- Linux (kernel 2.6.24 ~ 5.3) Note: tested on kernel 5.4 with no problems noted)
+- Linux (kernel 2.6.24 ~ 5.3)
+  Note: tested on kernel 5.4 with no problems noted)
 
 ### Tested distributions:
 
@@ -45,7 +46,7 @@ From a terminal (aka. command line interface):
 $ cd 88x2bu-master
 ```
 ```
-$ sudo apt-get install build-essential (does not appear to be needed on Ubuntu 20.04)
+$ sudo apt-get install build-essential
 ```
 ```
 $ make
